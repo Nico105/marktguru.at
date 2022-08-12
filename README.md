@@ -7,7 +7,7 @@ Heavily inspired by [marktguru](https://github.com/sydev/marktguru).
 ## Usage
 
 ```ts
-import { search } from 'marktguru';
+import { search } from 'marktguru.at';
 
 (async () => {
     try {
