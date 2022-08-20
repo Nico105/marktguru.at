@@ -91,9 +91,9 @@ export const search = async (query: string = '', options: marktguru.SearchOption
         images: {
             ...offer.images,
             urls: {
-                small: `https://mg2de.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/small.jpg`,
-                medium: `https://mg2de.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/medium.jpg`,
-                large: `https://mg2de.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/large.jpg`
+                small: `https://mgat.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/small.jpg`,
+                medium: `https://mgat.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/medium.jpg`,
+                large: `https://mgat.b-cdn.net/api/v1/offers/${offer.id}/images/default/0/large.jpg`
             }
         }
     }));
