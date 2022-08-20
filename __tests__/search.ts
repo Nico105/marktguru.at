@@ -1,5 +1,5 @@
-import {search} from '../src/index';
-import {marktguru} from "../src/@types/marktguru";
+import { search } from '../src/index';
+import * as marktguru from '../typings/index';
 
 jest.setTimeout(10000);
 
@@ -18,7 +18,7 @@ const checkOffers = (offers: marktguru.Offer[]) => {
             expect(offer.images.urls).toHaveProperty('large');
         }
     }
-}
+};
 
 test('search for `Cola`', async () => {
     const offers = await search('Cola');
