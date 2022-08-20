@@ -27,9 +27,9 @@ import { search } from 'marktguru.at';
 | ---------------- | ---------------------------------------------------------------------------------- | ------- |
 | limit            | Set the limit of offers to receive                                                 | 1000    |
 | offset           | Skip as many offers as offset is set                                               | 0       |
-| allowedRetailers | An array of retailers. See [here](typings/index.d.ts#L2) for some retailers        | []      |
+| allowedRetailers | An array of retailers. See [here](typings/index.d.ts#L1) for some retailers        | []      |
 | zipCode          | The zip code of area/city where to search for offers                               | 1010    |
 
 ### Returned data
 
-How an returned offer object looks like, you can see [here](typings/index.d.ts#L89).
+How an returned offer object looks like, you can see [here](typings/index.d.ts#L88).
