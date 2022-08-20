@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { marktguru } from './@types/marktguru';
+import * as marktguru from '../typings/index';
 
 const defaultOptions: marktguru.SearchOptions = {
     limit: 1000,
