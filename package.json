@@ -1,6 +1,6 @@
 {
   "name": "marktguru.at",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library to search for offers on marktguru.at",
   "main": "dist/index.js",
   "types": "typings/index.d.ts",
@@ -10,8 +10,7 @@
   ],
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "test": "jest",
-    "publish": "npm run build && npm publish"
+    "test": "jest"
   },
   "author": "Nico105",
   "license": "MIT",
